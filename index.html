@@ -2,8 +2,10 @@
 <html>
 
 	<head>
+		<!-- Include a required theme -->
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 		<meta charset="utf-8">
-		<title>NGUYEN HUYY</title>
+		<title>𝙉 𝙂 𝙐 𝙔 𝙀 𝙉 𝙈 𝙄 𝙉 𝙃 𝙃 𝙐 𝙔</title>
 		<style type="text/css">
 			/* CSS Document */
 			* {
@@ -128,33 +130,45 @@
 				background-color: rgb(216, 25, 25);
 			}
 		</style>
+		<!---->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="shortcut icon" href="http://thanhdieu.com/files/thanhdieugirl.jpg" type="image/x-icon">
+        <link rel="shortcut icon" href="./anh/avt.jpg" type="image/x-icon">
 	</head>
-	<body>
+	<body onclick="audio.play()">	
 		<div class="content">
-			<img src="https://www.meme-arsenal.com/memes/c121c193cb22b9f186414cde0c477696.jpg" alt="">
+			<img src="./anh/avt.jpg" alt="">
 			<div class="content_r clearfix">
 				<div class="content_l clearfix">
-					<h2>Xin chào ~ Tôi là Huy, chào mừng bạn đến !</h2>
-					<p class="bio">" Chào mừng đến với trang website của tôi "</p>
-					<p class="bio">𝙉𝙝𝙪̛̃𝙣𝙜 𝙡𝙚̂̃ đ𝙖̀𝙢 𝙩𝙞𝙚̂̉𝙪 𝙦𝙪𝙖 𝙡𝙤𝙖 𝙡𝙞𝙣𝙝 𝙩𝙞𝙣𝙝, 𝙠𝙝𝙤̂𝙣𝙜 𝙩𝙝𝙚̂̉ 𝙣𝙖̀𝙤 𝙢𝙖̀ 𝙘𝙖̉𝙣 𝙗𝙪̛𝙤̛́𝙘 đ𝙪̛𝙤̛̣𝙘 𝙈𝙖 𝙂𝙖𝙢𝙞𝙣𝙜</p>
+					<h2>こんにちは、Nguyễn Minh Huy さん、こんにちは <3</h2>
+					<p class="bio">Hello cu</p>
+					<p class="bio">Những lễ đàm tiểu qua loa linh tinh, không thể nào mà cản bước được 𝙈𝙖 𝙂𝙖𝙢𝙞𝙣𝙜</p>
 					<br>
-					<p class="color_1">I am an Minecraft Server maker</p>
+					<p class="Công việc: Đéo có</p>
 					<!-- <p class="color_1"></p> -->
 					<br>
-					<p class="deeppink">Tôi bị cà lăm🙃.</p>
+					<p class="deeppink">/ nghuyy.ddns.net /</p>
 					<div class="link">
 						<a href="https://www.facebook.com/admin.nghuyy" class="dodgerblue" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
 						<a href="https://github.com/NgHuyZzZ" class="black" target="_blank"><i class="fa fa-github"></i> Github</a>
-						<a href="https://nghuyy.ddns.net" class="green" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i> My Website</a>
+						<a href="https://shop.epicgamer.org" class="green" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i> Telegram</a>
 						<a href="https://www.youtube.com/@NguyenHuyy999" class="red" target="_blank"><i class="fa fa-youtube-play"></i> Youtube</a>
-                    
-                    </div>    <br>    <br>    <br>    <br> 
-                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1459436024&auto=1&height=66"></iframe>
 				</div>
 			</div>
 		</div>
+		<script>
+			var audio = new Audio('./nhac/web.mp3');
+      
+			audio.oncanplaythrough = function(){
+			audio.play();
+			}
+			
+			audio.loop = true;
+			
+			audio.onended = function(){
+			audio.play();
+			}
+   
+		</script>
         <script>
 
 //▬▬▬▬▬▬▬▬▬▬
@@ -328,10 +342,21 @@ img.src = "https://i.imgur.com/R9XUjfF.png";
 				}
 			}
 		
+			
 
 
 //////////////////////////////////////////////////////////////
 
         </script>
+
+		<script>
+			Swal.fire();
+
+			Swal.fire(
+				'Nguyen Huyy',
+				'Facebook: Nguyễn Huyy',
+				'success'
+			)
+		</script>
 	</body>
-  </html
+	</html>
