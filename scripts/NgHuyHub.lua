@@ -10,5 +10,5 @@ elseif game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId 
 elseif game.PlaceId == 3101667897 then
     loadstring(game:HttpGet('https://shz.al/~nghuylos"))()
 else
-    game.Players.LocalPlayer:kick("Not Support")
+    game.Players.LocalPlayer:Kick("Not Support")
 end
